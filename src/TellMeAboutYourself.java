@@ -9,19 +9,18 @@ public class TellMeAboutYourself {
         byte age = 33;
         String firstName = "Georg";
         String lastName = "Schweinschwaller";
-        LocalDate dateofBirth = LocalDate.of(1986,9,3);
+        LocalDate dateofBirth = LocalDate.of(1986, 9, 3);
         double averageGrade = 1.9;
         boolean married = false;
         boolean male = true;
 
         System.out.println("My name is " + firstName + " " + lastName + " i'm " + age + " years old.");
-        if(male) {
+        if (male) {
             System.out.println("I'm male.");
-        }
-        else {
+        } else {
             System.out.println("I'm female.");
         }
-        System.out.println("My birsthday is " +dateofBirth.toString() + ".");
+        System.out.println("My birsthday is " + dateofBirth.toString() + ".");
         System.out.println("To say i'm married is " + married + ".");
         System.out.println("My average grade is " + averageGrade + ".");
     }
