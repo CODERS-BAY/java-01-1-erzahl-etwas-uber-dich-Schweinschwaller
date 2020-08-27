@@ -17,12 +17,10 @@ public class TellMeAboutYourself {
         boolean male = true;
 
         System.out.println("My name is " + firstName + " " + lastName + " i'm " + age + " years old.");
-        if(male)
-        {
+        if(male) {
             System.out.println("I'm male.");
         }
-        else
-        {
+        else {
             System.out.println("I'm female.");
         }
         System.out.println("My birsthday is " +dateofBirth.toString() + ".");
